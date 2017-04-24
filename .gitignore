@@ -5,7 +5,7 @@ node_modules/
 *.log*
 
 # Visual Studio Code
-
+.vscode/
 
 # Yarn
 yarn*
