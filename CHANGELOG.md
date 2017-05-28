@@ -10,3 +10,8 @@ to structure this file.
 ## [0.0.1] - 2017-04-16
 ### Added
 - Initial release
+
+## [1.0.0] - 2017-05-28
+### Changed
+- Update the `gitignore` to exclude `.vscode` folder.
+- Update `package.json` accordingly to use the new stable `styled-jsx`.

@@ -1,6 +1,6 @@
 {
   "name": "neutrino-preset-styled-jsx",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Neutrino preset for adding styled-jsx support",
   "author": "Juan Riquelme González <juanriqgon@protonmail.com>",
   "scripts": {
@@ -15,10 +15,12 @@
     "url": "https://github.com/soulchainer/neutrino-preset-styled-jsx/issues"
   },
   "keywords": [
+    "css-in-js",
+    "jsx",
     "neutrino",
     "neutrino-preset",
-    "styled-jsx",
-    "jsx"
+    "react",
+    "styled-jsx"
   ],
   "dependencies": {
     "neutrino-middleware-loader-merge": "^5.0.0"
@@ -29,7 +31,7 @@
   },
   "peerDependencies": {
     "neutrino": "^5.0.0",
-    "styled-jsx": "^0.5.7"
+    "styled-jsx": "^1.0.0"
   },
   "license": "GPL-3.0",
   "config": {
