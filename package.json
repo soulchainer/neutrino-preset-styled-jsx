@@ -4,7 +4,8 @@
   "description": "Neutrino preset for adding styled-jsx support",
   "author": "Juan Riquelme González <juanriqgon@protonmail.com>",
   "scripts": {
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "test": "jest"
   },
   "main": "index.js",
   "repository": {
@@ -23,20 +24,36 @@
     "styled-jsx"
   ],
   "dependencies": {
-    "neutrino-middleware-loader-merge": "^5.0.0"
+    "neutrino-middleware-loader-merge": "^5.0.0",
+    "neutrino-preset-react": "^5.0.0"
   },
   "devDependencies": {
+    "babel-jest": "^20.0.3",
+    "babel-preset-env": "^1.5.2",
     "commitizen": "^2.9.6",
-    "cz-conventional-changelog": "^2.0.0"
+    "cz-conventional-changelog": "^2.0.0",
+    "jest": "^20.0.4",
+    "neutrino": "^5.0.0",
+    "webpack": "^2.6.1"
   },
   "peerDependencies": {
-    "neutrino": "^5.0.0",
-    "styled-jsx": "^1.0.0"
+    "styled-jsx": "^1.0.0",
+    "neutrino": "^5.0.0"
   },
   "license": "GPL-3.0",
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "jest": {
+    "transform": {
+      ".*": "<rootDir>/node_modules/babel-jest"
+    },
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "es6"
+    ]
   }
 }
