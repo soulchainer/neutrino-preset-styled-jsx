@@ -7,13 +7,14 @@ to structure this file.
 
 ## [Unreleased]
 
-## [1.0.1] - 2017-06-17
+## [1.1.0] - 2017-06-17
 ### Added
-- Add basic tests with Jest
-- Add dependency on `neutrino-preset-react`
+- Add CI with TravisCI.
+- Add basic tests with Jest.
+- Add dependency on `neutrino-preset-react`.
 
 ### Changed
-- Update to Neutrino v6
+- Update to Neutrino v6.
 - Edit `index.js` to use the `neutrino-preset-react` directly. Mainly because
   was mandatory to get the tests working, but also because it makes sense.
 
@@ -24,4 +25,4 @@ to structure this file.
 
 ## [0.0.1] - 2017-04-16
 ### Added
-- Initial release
+- Initial release.

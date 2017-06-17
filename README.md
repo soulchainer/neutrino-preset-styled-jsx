@@ -1,5 +1,6 @@
 # Neutrino styled-jsx preset
 
+[![Build Status](https://travis-ci.org/soulchainer/neutrino-preset-styled-jsx.svg?branch=master)](https://travis-ci.org/soulchainer/neutrino-preset-styled-jsx)
 [![NPM version][npm-image]][npm-url] [![NPM downloads][downloads-image]][npm-url]
 [![Commitizen friendly][commitizen-image]][commitizen-url] [![Join Slack][slack-image]][slack-url]
 
@@ -10,7 +11,7 @@
 
 - Node.js v6.9+
 - Yarn or npm client
-- Neutrino v5, Neutrino build preset
+- Neutrino v6, Neutrino build preset
 
 ## Installation
 
@@ -30,18 +31,20 @@
 
 ## Usage
 
-  Add `neutrino-preset-styled-jsx` to `neutrino.use` in the `package.json`.
+  Add `neutrino-preset-styled-jsx` to `neutrino.use` in the `.neutrinorc.js`.
 
   ```json
-    "neutrino": {
-      "use": [
-        "neutrino-preset-react",
-        "neutrino-preset-styled-jsx"
+     module.exports = {
+      use: [
+        'neutrino-preset-react',
+        'neutrino-preset-styled-jsx',
+        ...
       ]
-    },
+    };
   ```
 
   And that's all. For `styled-jsx` specific usage, see their [docs][styled-url].
+  For Neutrino usage, refer to their [documentation][neutrino-docs].
 
 
 [npm-image]: https://img.shields.io/npm/v/neutrino-preset-styled-jsx.svg
@@ -53,3 +56,4 @@
 [slack-url]: https://neutrino-slack.herokuapp.com/
 [styled-url]: https://github.com/zeit/styled-jsx
 [css-js-url]: https://github.com/MicheleBertoli/css-in-js
+[neutrino-docs]: https://neutrino.js.org/
