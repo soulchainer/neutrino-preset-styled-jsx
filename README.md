@@ -31,7 +31,7 @@
 
 ## Usage
 
-  Add `neutrino-preset-styled-jsx` to `neutrino.use` in the `.neutrinorc.js`.
+  Add `neutrino-preset-styled-jsx` to `use` in your `.neutrinorc.js`.
 
   ```js
      module.exports = {
