@@ -6,11 +6,14 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how
 to structure this file.
 
 ## [Unreleased]
-## Added
+
+## [1.0.1] - 2017-06-17
+### Added
 - Add basic tests with Jest
 - Add dependency on `neutrino-preset-react`
 
-## Changed
+### Changed
+- Update to Neutrino v6
 - Edit `index.js` to use the `neutrino-preset-react` directly. Mainly because
   was mandatory to get the tests working, but also because it makes sense.
 
