@@ -33,7 +33,7 @@
 
   Add `neutrino-preset-styled-jsx` to `neutrino.use` in the `.neutrinorc.js`.
 
-  ```json
+  ```js
      module.exports = {
       use: [
         'neutrino-preset-react',
