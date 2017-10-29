@@ -9,7 +9,7 @@
 
 ## Requirements
 
-- Node.js v6.10+
+- Node.js v7+
 - Yarn or npm client
 - Neutrino v7, Neutrino build preset
 
