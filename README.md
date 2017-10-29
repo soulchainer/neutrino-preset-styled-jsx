@@ -9,21 +9,21 @@
 
 ## Requirements
 
-- Node.js v6.9+
+- Node.js v6.10+
 - Yarn or npm client
-- Neutrino v6, Neutrino build preset
+- Neutrino v7, Neutrino build preset
 
 ## Installation
 
 `neutrino-preset-styled-jsx` can be installed via the Yarn or npm clients.
 
-#### Yarn
+### Yarn
 
 ```bash
 ❯ yarn add neutrino-preset-styled-jsx
 ```
 
-#### npm
+### npm
 
 ```bash
 ❯ npm install --save neutrino-preset-styled-jsx
@@ -45,7 +45,6 @@
 
   And that's all. For `styled-jsx` specific usage, see their [docs][styled-url].
   For Neutrino usage, refer to their [documentation][neutrino-docs].
-
 
 [npm-image]: https://img.shields.io/npm/v/neutrino-preset-styled-jsx.svg
 [downloads-image]: https://img.shields.io/npm/dt/neutrino-preset-styled-jsx.svg
