@@ -1,13 +1,13 @@
 {
   "name": "neutrino-preset-styled-jsx",
-  "version": "2.0.1",
+  "version": "3.0.0",
   "description": "Neutrino preset for adding styled-jsx support",
   "author": "Juan Riquelme González <juanriqgon@protonmail.com>",
   "scripts": {
     "commit": "git-cz",
     "test": "jest"
   },
-  "main": "index.js",
+  "main": "src/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/soulchainer/neutrino-preset-styled-jsx.git"
@@ -24,36 +24,28 @@
     "styled-jsx"
   ],
   "dependencies": {
-    "neutrino-middleware-loader-merge": "^7.0.0",
-    "neutrino-preset-react": "^7.0.0"
+    "@babel/preset-env": "^7.1.0",
+    "@neutrinojs/loader-merge": "^8.3.0",
+    "@neutrinojs/react": "^8.3.0"
   },
   "devDependencies": {
-    "babel-jest": "^21.0.0",
-    "babel-preset-env": "^1.6.1",
-    "commitizen": "^2.9.6",
-    "cz-conventional-changelog": "^2.0.0",
-    "jest": "^21.0.0",
-    "neutrino": "^7.0.0",
-    "webpack": "^3.0.0"
+    "@babel/core": "^7.1.2",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "commitizen": "^3.0.2",
+    "cz-conventional-changelog": "^2.1.0",
+    "jest": "^23.6.0",
+    "neutrino": "^8.3.0",
+    "webpack": "^4.20.2"
   },
   "peerDependencies": {
-    "neutrino": "^7.0.0",
-    "styled-jsx": "^2.0.0"
+    "neutrino": "^8.3.0",
+    "styled-jsx": "^3.1.0"
   },
   "license": "GPL-3.0",
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
-  },
-  "jest": {
-    "transform": {
-      ".*": "<rootDir>/node_modules/babel-jest"
-    },
-    "moduleFileExtensions": [
-      "js",
-      "json",
-      "es6"
-    ]
   }
 }
