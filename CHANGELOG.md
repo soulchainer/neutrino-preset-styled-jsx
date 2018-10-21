@@ -20,6 +20,7 @@ to structure this file.
 - Move `index.js` to `src/index.js`
 - Remove `__test__`
 - Update `README.md` to be easier to read
+- Add support for testing on macOS and Windows.
 
 ## [2.0.0] - 2017-10-29
 
