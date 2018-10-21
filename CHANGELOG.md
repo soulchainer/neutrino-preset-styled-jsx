@@ -15,13 +15,11 @@ to structure this file.
 - Update to Jest v3
 - Update to Webpack v4
 - Update to `styled-jsx` v3
-- Update `.babelrc` to `babel.config.js`
 - Update testing version to `8`
 - Move `__test__/index.test.js` to `src/index.test.js`
 - Move `index.js` to `src/index.js`
 - Remove `__test__`
 - Update `README.md` to be easier to read
-- Remove `yarn` related files and configurations
 
 ## [2.0.0] - 2017-10-29
 
