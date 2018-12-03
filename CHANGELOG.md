@@ -11,7 +11,6 @@ to structure this file.
 ### Changed
 
 - Update to Neutrino v8
-- Update to Babel v7
 - Update to Jest v3
 - Update to Webpack v4
 - Update to `styled-jsx` v3
