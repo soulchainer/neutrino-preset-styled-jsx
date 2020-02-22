@@ -1,20 +1,7 @@
 {
   "name": "neutrino-preset-styled-jsx",
-  "version": "2.0.1",
+  "version": "3.0.0",
   "description": "Neutrino preset for adding styled-jsx support",
-  "author": "Juan Riquelme González <juanriqgon@protonmail.com>",
-  "scripts": {
-    "commit": "git-cz",
-    "test": "jest"
-  },
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/soulchainer/neutrino-preset-styled-jsx.git"
-  },
-  "bugs": {
-    "url": "https://github.com/soulchainer/neutrino-preset-styled-jsx/issues"
-  },
   "keywords": [
     "css-in-js",
     "jsx",
@@ -23,37 +10,41 @@
     "react",
     "styled-jsx"
   ],
-  "dependencies": {
-    "neutrino-middleware-loader-merge": "^7.0.0",
-    "neutrino-preset-react": "^7.0.0"
+  "bugs": {
+    "url": "https://github.com/soulchainer/neutrino-preset-styled-jsx/issues"
   },
-  "devDependencies": {
-    "babel-jest": "^21.0.0",
-    "babel-preset-env": "^1.6.1",
-    "commitizen": "^2.9.6",
-    "cz-conventional-changelog": "^2.0.0",
-    "jest": "^21.0.0",
-    "neutrino": "^7.0.0",
-    "webpack": "^3.0.0"
-  },
-  "peerDependencies": {
-    "neutrino": "^7.0.0",
-    "styled-jsx": "^2.0.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soulchainer/neutrino-preset-styled-jsx.git"
   },
   "license": "GPL-3.0",
+  "author": "Juan Riquelme González <juanriqgon@protonmail.com>",
+  "main": "src/index.js",
+  "scripts": {
+    "commit": "git-cz",
+    "test": "jest"
+  },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
-  "jest": {
-    "transform": {
-      ".*": "<rootDir>/node_modules/babel-jest"
-    },
-    "moduleFileExtensions": [
-      "js",
-      "json",
-      "es6"
-    ]
+  "dependencies": {},
+  "devDependencies": {
+    "@neutrinojs/loader-merge": "^8.3.0",
+    "@neutrinojs/react": "^8.3.0",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.6.0",
+    "babel-preset-env": "^1.7.0",
+    "commitizen": "^3.0.2",
+    "cz-conventional-changelog": "^2.1.0",
+    "jest": "^23.6.0",
+    "jest-cli": "^23.6.0",
+    "neutrino": "^8.3.0",
+    "webpack": "^4.20.2"
+  },
+  "peerDependencies": {
+    "neutrino": "^8.3.0",
+    "styled-jsx": "^3.1.0"
   }
 }

@@ -2,11 +2,7 @@
 node_modules/
 
 # Logs
-*.log*
+*.log
 
 # Visual Studio Code
 .vscode/
-
-# Yarn
-yarn*
-!yarn.lock

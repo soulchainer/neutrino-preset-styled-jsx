@@ -1,5 +1,5 @@
-const loaderMerge = require('neutrino-middleware-loader-merge');
-const react = require('neutrino-preset-react');
+const loaderMerge = require('@neutrinojs/loader-merge');
+const react = require('@neutrinojs/react');
 
 module.exports = (neutrino, options) => {
   neutrino.use(react);
