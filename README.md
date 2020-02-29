@@ -5,7 +5,8 @@
 [![Commitizen Friendly][commitizen-badge]][commitizen]
 [![Join Slack][slack-badge]][slack]
 
-
+## :no_entry: Deprecated :no_entry:
+This project is no longer supported. If you have any question or would like to contribute, maintain the project or whatever, feel free to contact me at Twitter [@juanriqgon](https://twitter.com/juanriqgon) or via email at me[at]juanriquel[dot]com.
 
 `neutrino-preset-styled-jsx` is a preset that adds support for
 [`styled-jsx`][styled-jsx].
